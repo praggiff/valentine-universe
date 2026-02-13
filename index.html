@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Universe ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<!-- INTRO SCREEN -->
+<div id="intro" class="overlay visible">
+  <div class="intro-content">
+
+    <h1 class="glow-title">23 March 2024</h1>
+
+    <p class="subtitle">
+      The day two separate worlds chose the same orbit.
+    </p>
+
+    <div class="password-box">
+      <input type="password" id="passwordInput" placeholder="Enter The Key ❤️">
+      <button onclick="checkPassword()">Enter</button>
+    </div>
+
+    <p id="errorMsg" class="error hidden">
+      That is not our universe ❤️
+    </p>
+
+  </div>
+</div>
+
+<!-- STORY -->
+<div id="storyText" class="story"></div>
+
+<!-- BUTTON -->
+<button id="finalBtn" class="hidden" onclick="finalClimax()">
+  Forgive Me My Love ❤️
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
